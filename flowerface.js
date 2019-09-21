@@ -102,6 +102,8 @@ client.on('message', message => {
     } else if (message.content.startsWith('!remove')) {
     	console.log(message.content.split(" ")[1]);
     	remove_from_playlist(message.content.split(" ")[1]);
+    } else if (message.content === 'what is my avatar') {
+    	message.reply(message.author.avatarURL);
     }
         /*
         // Mention practice
@@ -112,35 +114,5 @@ client.on('message', message => {
                     message: "<@380199617540653056> hello sir????! you like big poopoo"
             });
             break;
-
-        // Prints available playlists on YouTube (used for Fredclient)
-        case 'playlists':
-            print_playlist(channelID, message)
-            break;
-
-        case 'add':
-            var input = message.split(" ");
-            var addCheck = add_to_playlist(input[1], input[2]);
-            if (addCheck) {
-                client.sendMessage({
-                    to: channelID,
-                    message: 'Playlist added successfully. Genre is ' + input[1] + ' and link is: ' + input[2]
-                });
-            } else {
-                 client.sendMessage({
-                    to: channelID,
-                    message: 'Playlist failed to be added. Link must be from youtube.com'
-                });
-            }
-            break;
-
-        default:
-            client.sendMessage({
-                to: channelID,
-                message: 'poopoo, type !help for commands'
-            });
-        
-        // Just add any case commands if you want to..
-     }
      */
 });
