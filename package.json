@@ -5,11 +5,16 @@
 	"main": "flowreface.js",
 	"author": "David Cha",
 	"dependencies": {
+		"bindings": "^1.5.0",
 		"bufferutil": "^4.0.1",
+		"commander": "^3.0.1",
 		"discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
 		"discord.js": "^11.5.1",
+		"ffmpeg-binaries": "^4.0.0",
 		"libsodium-wrappers": "^0.7.5",
+		"nan": "^2.14.0",
 		"opusscript": "0.0.7",
-		"winston": "^3.2.1"
+		"winston": "^3.2.1",
+		"ytdl-core": "^0.29.7"
 	}
 }
