@@ -20,7 +20,7 @@
 		"opusscript": "0.0.7",
 		"simple-youtube-api": "^5.2.1",
 		"winston": "^3.2.1",
-		"ws": "^7.1.2",
+		"ws": "^7.4.6",
 		"ytdl-core": "^0.29.7",
 		"ytdl-core-discord": "^1.0.3"
 	}
